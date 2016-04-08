@@ -12,3 +12,5 @@ class DjangoTranslateCommand(sublime_plugin.TextCommand):
             self.view.insert(edit, message.begin(), translator_begin)
             
         print('Added trans blocks.')
+        
+#{"keys": ["ctrl+shift+t"], "command": "django_translate"}
